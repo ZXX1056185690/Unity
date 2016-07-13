@@ -7,7 +7,9 @@ using UnityEngine;
 using System.Collections;
 
 public class CameraFollow : MonoBehaviour {
-	
+	/// <summary>
+	/// /////修改了文件Gib
+	/// </summary>
 	[HideInInspector]
 	public Transform target; //Target to follow
 	public float angle = 15; //Angle camera
